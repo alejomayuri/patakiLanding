@@ -1,0 +1,46 @@
+.bannerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContent {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bannerContent h2 {
+    font-family: 'Radley', serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.bannerContent > div {
+    width: 360px;
+    margin-right: 150px;
+}
+
+.bannerContent p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #888;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.bannerImageWrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bannerImage {
+    width: 560px;
+}
+
+.bannerImage img {
+    width: 100%;
+}

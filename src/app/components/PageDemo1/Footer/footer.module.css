@@ -1,0 +1,16 @@
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 6px;
+}
+
+.logoWrapper {
+    width: 70px;
+    color: #333;
+}
+
+.logoWrapper img {
+    width: 100%;
+}
