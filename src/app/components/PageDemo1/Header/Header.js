@@ -1,4 +1,5 @@
 import style from './Header.module.css';
+import Menu from '../../icons/Menu';import DropdownMenu from '../DropdownMenu/DropdownMenu';
 
 export const Header = () => {
     return (
@@ -11,16 +12,21 @@ export const Header = () => {
                     <nav className={style.nav}>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Sobre nosotros</a></li>
-                            <li><a href="#">Precios</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="#">Social</a></li>
+                            <li><a href="#about">Sobre nosotros</a></li>
+                            <li><a href="#prices">Precios</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="#social">Social</a></li>
                         </ul>
                     </nav>
                     <div className={style.contacto}>
-                        <a href="#">
-                            Contáctanos
-                        </a>
+                        <div className={style.contactBtn}>
+                            <a href="#">
+                                Contáctanos
+                            </a>
+                        </div>
+                        <div className={style.dropdownMenu}>
+                            <DropdownMenu />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import style from './About.module.css';
 
 export const About = () => {
     return (
-        <section>
+        <section id="about">
             <div className={style.aboutWrapper}>
                 <h2 className={style.aboutTitle}>Tu traes a los invitados, nosotros hacemos el resto.</h2>
                 <div className={style.articlesWrapper}>

@@ -4,7 +4,7 @@ import TikTokIcon from "../../icons/TikTokIcon";
 
 export const FooterSocial = () => {
     return (
-        <section>
+        <section id="social">
             <div className={style.footerSocialWrapper}>
                 <div>
                     <div className={style.nameWrapper}>

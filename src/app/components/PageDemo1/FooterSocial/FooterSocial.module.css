@@ -49,3 +49,16 @@
 .text > a:hover {
     color: #8e7161;
 }
+
+@media screen and (max-width: 768px) {
+    .footerSocialWrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footerSocialWrapper > div {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+}

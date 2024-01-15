@@ -5,7 +5,7 @@ import TikTokIcon from '../../icons/TikTokIcon';
 
 export const MainBanner = () => {
     return (
-        <section>
+        <section className={style.section}>
             <div className={style.bannerWrapper}>
                 <div className={style.bannerImage}>
                     <img src="/demos/banner1.jpg" alt="banner" />

@@ -14,3 +14,9 @@
 .logoWrapper img {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .footerWrapper {
+        padding-top: 40px 0;
+    }
+}

@@ -42,3 +42,44 @@
 .bannerImage img {
     width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+    .bannerContent > div {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bannerContent > div {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bannerWrapper {
+        flex-direction: column;
+    }
+
+    .bannerImageWrapper {
+        width: 100%;
+    }
+
+    .bannerImage {
+        width: 100%;
+    }
+
+    .bannerContent {
+        width: 100%;
+    }
+
+    .bannerContent > div {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .bannerContent h2 {
+        font-size: 30px;
+    }
+}

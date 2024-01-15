@@ -2,7 +2,7 @@ import style from './Prices.module.css';
 
 export const Prices = () => {
     return (
-        <section>
+        <section id="prices">
             <h2 className={style.title}>Elimina las molestias.</h2>
             <div className={style.cardsWrapper}>
                 <div className={style.card}>

@@ -43,3 +43,23 @@
     color: #fff;
     line-height: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+    .card h3, .card p  {
+        padding: 0px 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cardsWrapper {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card p  {
+        padding: 0px 16px;
+    }
+}

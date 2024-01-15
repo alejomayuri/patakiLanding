@@ -4,7 +4,7 @@ import Mail from '../../icons/Mail';
 
 export const FooterBanner = () => {
     return (
-        <section>
+        <section id="contact">
             <div className={style.footerBannerWrapper} style={{
                 backgroundImage: "url(/demos/footerImage1.jpg)"
             }}>

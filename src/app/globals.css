@@ -2,6 +2,16 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
-  margin-bottom: 80px;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding-top: 50px;
+  }
 }
