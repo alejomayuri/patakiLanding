@@ -7,7 +7,6 @@ const Menu = (props) => (
     {...props}
   >
     <path
-      stroke="#000"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

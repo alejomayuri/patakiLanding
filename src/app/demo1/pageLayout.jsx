@@ -1,5 +1,4 @@
 import Header from "../components/PageDemo1/Header/Header"
-import style from "./pageLayout.module.css"
 import Footer from "../components/PageDemo1/Footer/footer"
 
 export const Layout = ({ children }) => {

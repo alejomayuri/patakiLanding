@@ -1,5 +1,4 @@
 import Layout from "./pageLayout";
-import Componente from "../components/Componente";
 import MainBanner from "../components/PageDemo1/MainBanner/MainBanner";
 import About from "../components/PageDemo1/About/About";
 import MidBanner from "../components/PageDemo1/MidBanner/MidBanner";

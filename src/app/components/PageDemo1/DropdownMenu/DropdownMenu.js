@@ -16,7 +16,7 @@ export const DropdownMenu = () => {
         <>
             <div className={style.buttonSvg}>
                 {
-                    !showMenu ? <Menu width={35} height={35} onClick={handleShow} /> : <Close width={35} height={35} onClick={handleShow} />
+                    !showMenu ? <Menu width={35} height={35} onClick={handleShow} stroke='#000' /> : <Close fill='#000' stroke='#000' width={35} height={35} onClick={handleShow} />
                 }
             </div>
             <div className={style.menu} style={{ display: showMenu ? 'block' : 'none' }}>
