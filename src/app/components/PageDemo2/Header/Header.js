@@ -18,7 +18,7 @@ import {
 export const Header = () => {
 
     return (
-        <Box as='header' w='100%'>
+        <Box zIndex='9999' position="fixed" as='header' w='100%'>
             <Flex display='flex' alignItems='center' maxW='1600px' w='100%' mx='auto' px={{ base: 10, md: 20 }} py={4} bg='#2f615e'>
                 <Box w='90px'>
                     <Image src='/demos/demo2/logo.png' alt='logo' />

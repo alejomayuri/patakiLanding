@@ -12,6 +12,7 @@ export const MainBanner = () => {
                 objectFit='cover'
                 src='/demos/demo2/banner.jpg'
                 alt='New York'
+                paddingTop={{ base: "77px", md: "87px" }}
             />
             <Box
                 maxW='1200px'

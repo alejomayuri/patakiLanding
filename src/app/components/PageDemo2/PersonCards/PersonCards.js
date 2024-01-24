@@ -3,7 +3,7 @@ import Card from "./Card/Card"
 
 export const PersonCards = () => {
     return (
-        <Box>
+        <Box id="about">
             <Box 
                 as='h2'
                 textAlign='center'
@@ -11,6 +11,7 @@ export const PersonCards = () => {
                 marginTop={{ base: 10, md: 24 }}
                 marginBottom={{ base: 0, md: 10 }}
                 px={{ base: 1, md: 20 }}
+                objectFit='cover'
             >
                 Pequeño. Vibrante. Apasionado.
             </Box>

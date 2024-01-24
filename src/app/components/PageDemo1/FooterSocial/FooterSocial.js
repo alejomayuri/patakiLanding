@@ -2,7 +2,7 @@ import style from "./FooterSocial.module.css";
 import Instagram from "../../icons/Instagram";
 import TikTokIcon from "../../icons/TikTokIcon";
 
-export const FooterSocial = () => {
+export const FooterSocial = ({ text_insta, text_tiktok }) => {
     return (
         <section id="social">
             <div className={style.footerSocialWrapper}>
@@ -13,9 +13,7 @@ export const FooterSocial = () => {
                         <span>GRAM</span>
                     </div>
                     <h3 className={style.title}>Deleita tus ojos.</h3>
-                    <p className={style.text}>
-                        Mantente conectado con nosotros <a href="#"><b>@patakilanding</b></a> para recibir ofertas super exclusivas.
-                    </p>
+                    <p className={style.text} dangerouslySetInnerHTML={{ __html: text_insta }}></p>
                 </div>
                 <div>
                     <div className={style.nameWrapper}>
@@ -24,9 +22,7 @@ export const FooterSocial = () => {
                         <span>TOK</span>
                     </div>
                     <h3 className={style.title}>Diviertete con nosotros.</h3>
-                    <p className={style.text}>
-                        Mantente conectado con nosotros <a href="#"><b>@patakilanding</b></a> para recibir ofertas super exclusivas.
-                    </p>
+                    <p className={style.text} dangerouslySetInnerHTML={{ __html: text_tiktok }}></p>
                 </div>
             </div>
         </section>

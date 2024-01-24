@@ -18,7 +18,10 @@ export const Demo1 = () => {
       <Cards />
       <Prices />
       <FooterBanner />
-      <FooterSocial />
+      <FooterSocial
+        text_insta={"Mantente conectado con nosotros <a href='#'><b>@patakicater</b></a> para recibir ofertas super exclusivas."}
+        text_tiktok={"Mantente conectado con nosotros <a href='#'><b>@patakicater</b></a> para recibir ofertas super exclusivas."}
+      />
     </Layout>
   );
 }
