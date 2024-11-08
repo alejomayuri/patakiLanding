@@ -1,0 +1,54 @@
+.dataContainer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #ba9773;
+    padding: 10px 0;
+}
+
+.dataContainer > div {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.color > div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.styleContainer {
+    width: 500px;
+    padding-left: 20px;
+}
+
+.styleContainer > p {
+    font-size: 17px;
+}
+
+.marcaContainer,.alcoholContainer {
+    width: 300px;
+}
+
+.alcoholContainer > p {
+    font-weight: 600;
+}
+
+.keywordsContainer {
+    width: 400px;
+}
+
+.keywordsContainer li {
+    list-style: none;
+    font-size: 15px;
+}
+
+.lupuloContainer {
+    display: flex;
+    padding-right: 25px;
+}

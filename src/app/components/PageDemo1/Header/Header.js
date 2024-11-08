@@ -1,5 +1,6 @@
 import style from './Header.module.css';
-import Menu from '../../icons/Menu';import DropdownMenu from '../DropdownMenu/DropdownMenu';
+import Menu from '../../icons/Menu';
+import DropdownMenu from '../DropdownMenu/DropdownMenu';
 
 export const Header = () => {
     return (

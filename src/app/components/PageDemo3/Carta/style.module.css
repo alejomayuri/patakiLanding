@@ -1,0 +1,33 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.container > header {
+    display: flex;
+    padding: 10px 0 10px 80px;
+}
+
+.container > header > div > p {
+    font-size: 14px;
+    font-family: 'Radley', serif;
+    letter-spacing: 1px;
+}
+
+.styleHeaderContainer {
+    width: 216px;
+}
+
+.marcaHeaderContainer {
+    width: 135px;
+}
+
+.keywordsHeaderContainer {
+    width: 180px;
+}
+
+.alcoholHeaderContainer {
+    width: 230px;
+}

@@ -1,6 +1,5 @@
-import Header from "../components/PageDemo1/Header/Header"
-import Footer from "../components/PageDemo1/Footer/footer"
 import { background } from "@chakra-ui/react"
+import Header from "../components/PageDemo3/Header/Header"
 
 export const Layout = ({ children }) => {
   return (
@@ -8,14 +7,12 @@ export const Layout = ({ children }) => {
         <div>
             <Header />
             <main style={{
-                paddingTop: "84px",
-                maxWidth: "1600px",
                 margin: "0 auto",
                 width: "100%",
+                background: "#000"
             }}>
                 {children}
             </main>
-            <Footer />
         </div>
     </>
   )
