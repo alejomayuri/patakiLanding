@@ -34,7 +34,7 @@ export const Testimonials = () => {
         }, 5000);
     
         return () => clearInterval(intervalId);
-    }, []);
+    }, [testimoniesData.length]);
 
     return (
         <div id='testimonial' className={style.testimonials_container}>

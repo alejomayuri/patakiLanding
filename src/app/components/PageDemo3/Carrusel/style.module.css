@@ -1,0 +1,12 @@
+.sliderElement {
+  transition: opacity 0.3s ease;
+  background-color: gray;
+}
+
+.activeSlide {
+  opacity: 1; /* Opacidad completa para el elemento central */
+}
+
+.inactiveSlide {
+  opacity: 0.3; /* Opacidad para los elementos laterales */
+}
